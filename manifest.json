@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+ 
+  "name": "SF Confetti Block",
+  "version": "0.0.1",
+  "description": "Block Salesforce Celbration Confetti, if you're grumpy like me",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [{
+    "css": ["styles.css"],
+    "matches": ["https://*.force.com/*"]
+  }]
+ 
+}
